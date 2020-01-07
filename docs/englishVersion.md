@@ -38,14 +38,14 @@ Notes on SMS access：
 
  1. [State of the callback](docs/callBack.md)
 
- 1. [上行推送](docs/upwardPush.md)
+ 1. [The upward push](docs/upwardPush.md)
 
- 1. [短信群发（json）](docs/groupMessaging.md)
+ 1. [Group messaging（json）](docs/groupMessaging.md)
 
- 1. [语音验证码](docs/voiceVerificationCode.md)
+ 1. [Voice verification code](docs/voiceVerificationCode.md)
 
- 1. [拉取上行短信明细](docs/pullDetail.md)
+ 1. [Pull up the uplink message details](docs/pullDetail.md)
 
- 1. [拉取状态报告](docs/pullCallback.md)
+ 1. [Pull the status report](docs/pullCallback.md)
 
- 1. [状态码](docs/statusCode.md)
+ 1. [Status code](docs/statusCode.md)
