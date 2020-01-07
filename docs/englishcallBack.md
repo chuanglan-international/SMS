@@ -17,7 +17,7 @@
 
 Parameter description is as follows：
 ```
-receive：The user name (not the account name) verified by the receiving status report is the name configured as required by the user and is empty by default
+<font color=#FF0000 >receive</font>：The user name (not the account name) verified by the receiving status report is the name configured as required by the user and is empty by default
 pswd：Receive the password verified by the status report, which defaults to null
 msgid：Msgid returned by platform when SMS is submitted
 reportTime：The gateway platform returns the time, the gateway is different, the format has the deviation, the specific return format shall prevail.
