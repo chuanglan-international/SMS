@@ -16,7 +16,7 @@
 
 
 Parameter description is as follows：
-```
+
 <font color=#FF0000 >receive</font>：The user name (not the account name) verified by the receiving status report is the name configured as required by the user and is empty by default
 pswd：Receive the password verified by the status report, which defaults to null
 msgid：Msgid returned by platform when SMS is submitted
@@ -26,7 +26,7 @@ notifyTime：Interface server returns time in format YYMMDDhhmmss, where YY= las
 mobile：The mobile phone number at the time of submitting the message
 status：Status report status code
 betchSeq：SMS batch number.
-```
+
 
 
 ```
