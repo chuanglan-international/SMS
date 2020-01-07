@@ -34,9 +34,9 @@ Notes on SMS access：
 
  1. [Message issued](docs/englishmessageIssued.md)
 
- 1. [Query balance](docs/englishcallBack.md )
+ 1. [Query balance](docs/englishqueryBalance.md )
 
- 1. [State of the callback](docs/englishCallBack.md)
+ 1. [State of the callback](docs/englishcallBack.md)
 
  1. [The upward push](docs/englishupwardPush.md)
 
