@@ -32,20 +32,20 @@ Notes on SMS access：
 
 
 
- 1. [Message issued](docs/messageIssued.md)
+ 1. [Message issued](docs/englishmessageIssued.md)
 
- 1. [Query balance](docs/queryBalance.md)
+ 1. [Query balance](docs/englishqueryBalance.md)
 
- 1. [State of the callback](docs/callBack.md)
+ 1. [State of the callback](docs/englishcallBack.md)
 
- 1. [The upward push](docs/upwardPush.md)
+ 1. [The upward push](docs/englishupwardPush.md)
 
- 1. [Group messaging（json）](docs/groupMessaging.md)
+ 1. [Group messaging（json）](docs/englishgroupMessaging.md)
 
- 1. [Voice verification code](docs/voiceVerificationCode.md)
+ 1. [Voice verification code](docs/englishvoiceVerificationCode.md)
 
- 1. [Pull up the uplink message details](docs/pullDetail.md)
+ 1. [Pull up the uplink message details](docs/englishpullDetail.md)
 
- 1. [Pull the status report](docs/pullCallback.md)
+ 1. [Pull the status report](docs/englishpullCallback.md)
 
- 1. [Status code](docs/statusCode.md)
+ 1. [Status code](docs/englishstatusCode.md)
