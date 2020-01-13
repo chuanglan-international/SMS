@@ -61,7 +61,9 @@ URL|`http://intapi.253.com/send/json`
  }
  ```
  Note: code is the response status code, which can be compared with the submitted response status code
-
+<br/>
+<br/>
+<br/>
 <a id="a-querybalance"></a>
 ## 2 Query balance
 
@@ -95,7 +97,9 @@ URL|`http://intapi.253.com/send/json`
  }<br/>
  
  Note: code is the response status code, which can be compared with the submitted response status code
-
+<br/>
+<br/>
+<br/>
 
 <a id="a-stateofthecallback"></a>
 ## 3 State of the callback
@@ -134,6 +138,9 @@ Note:
 1. Response string :OK if received successfully
 2. Status is the status code of status report, which can be compared with the status code of status report
 ```
+<br/>
+<br/>
+<br/>
 <a id="a-theupwardpush"></a>
 ## 4 The upward push
 
@@ -163,7 +170,9 @@ destcode：User uplink destination number
 
 Note:
 1. Response string :OK if received successfully
-
+<br/>
+<br/>
+<br/>
 
 <a id="a-groupmessaging"></a>
 ## 5 Group messaging（json）
@@ -257,7 +266,9 @@ A batch message id is returned
 |125|A certain customer's phone number must not exceed 10 times on the same day|
 |128|Account length is over 50 digits|
 |129|Product price configuration error|
-
+<br/>
+<br/>
+<br/>
 
 
 <a id="a-voicecode"></a>
@@ -297,7 +308,9 @@ A batch message id is returned
  }<br/>
  <br/>
  Note: code is the response status code, which can be compared with the submitted response status code
-
+<br/>
+<br/>
+<br/>
 <a id="a-pulldetails"></a>
 ## 7 Pull up the uplink message details
 
@@ -344,7 +357,9 @@ A batch message id is returned
 }
 ```
 Note: code is the response status code, which can be compared with the submitted response status code
-
+<br/>
+<br/>
+<br/>
 
 <a id="a-statusreport"></a>
 ## 8 Pull the status report
@@ -396,7 +411,11 @@ Note: code is the response status code, which can be compared with the submitted
   ]
 }
 ```
+<br/>
+<br/>
+<br/>
 <a id="a-statuscode"></a>
+#status code
 ## Status report status code
 
 |Status code|instructions|
