@@ -415,7 +415,9 @@ Note: code is the response status code, which can be compared with the submitted
 <br/>
 <br/>
 <a id="a-statuscode"></a>
-#status code
+
+# Status Code
+
 ## Status report status code
 
 |Status code|instructions|
