@@ -197,7 +197,9 @@ content-type：application/json
 |msg|yes|yes|Message content|
 |mobile|yes|string|phone number|
 <br/>
+
 **Sample request**
+
 {<br/>
     `"account"`:"I6428061",<br/>
     `"password"`:"123456",<br/> 
@@ -216,7 +218,9 @@ content-type：application/json
 |messageId|string|Message id|
 |errorPhone|array|Wrong phone number|
 <br/>
+
 **Return sample (single)**<br/>
+
  {<br/>
     `"code"`: "0",<br/>
     `"message"`: "成功",<br/>
