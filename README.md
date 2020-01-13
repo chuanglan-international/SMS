@@ -25,5 +25,5 @@
  1. [拉取状态报告](docs/pullCallback.md)
  1. [状态码](docs/statusCode.md)
 ####
- [English version of the API](docs/englishVersion.md)
+ [English version of the API](englishAPI/README.md)
 
