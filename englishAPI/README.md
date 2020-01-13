@@ -142,6 +142,7 @@ Note:
 <br/>
 <br/>
 <a id="a-theupwardpush"></a>
+
 ## 4 The upward push
 
 ### 4.1 Agreement that
