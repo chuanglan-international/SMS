@@ -25,7 +25,7 @@ reportTime：网关平台返回的时间,网关不同，格式有偏差，以具
 notifyTime：接口服务器返回的时间，格式YYMMDDhhmmss，其中YY=年份的最后两位（00-99），MM=月份（01-12），DD=日（01-31），hh=小时（00-23）<br/>，mm=分钟（00-59）,ss=秒（00-59）。<br/>
 mobile：提交短信时的手机号码<br/>
 status：状态报告状态码<br/>
-betchSeq：短信批次号。<br/>
+batchSeq：短信批次号。<br/>
 ```
 
 
