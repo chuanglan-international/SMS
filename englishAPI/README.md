@@ -129,7 +129,7 @@ notifyTime：Interface server returns time in format YYMMDDhhmmss, where YY= las
 , MM= minutes (00-59),ss= seconds (00-59).
 mobile：The mobile phone number at the time of submitting the message
 status：Status report status code
-betchSeq：SMS batch number。
+batchSeq：SMS batch number。
 ```
 
 
