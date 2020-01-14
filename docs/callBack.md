@@ -16,16 +16,16 @@
 http://pushUrl?receiver=admin&pswd=12345&msgid=12345&reportTime=1012241002&mobile=13900210021&status=DELIVRD¬ifyTime=180828114243&batchSeq=I0123456_1808281142_2188000
 
 
-参数说明如下：
+参数说明如下
 ```
-receiver：接收状态报告验证的用户名（不是账户名），是按照用户要求配置的名称，默认为空<br/>
-pswd：接收状态报告验证的密码，默认为空<br/>
-msgid：提交短信时平台返回的msgid<br/>
+receiver：接收状态报告验证的用户名（不是账户名），是按照用户要求配置的名称，默认为空
+pswd：接收状态报告验证的密码，默认为空
+msgid：提交短信时平台返回的msgid
 reportTime：网关平台返回的时间,网关不同，格式有偏差，以具体返回格式为准.<br/>
-notifyTime：接口服务器返回的时间，格式YYMMDDhhmmss，其中YY=年份的最后两位（00-99），MM=月份（01-12），DD=日（01-31），hh=小时（00-23）<br/>，mm=分钟（00-59）,ss=秒（00-59）。<br/>
-mobile：提交短信时的手机号码<br/>
-status：状态报告状态码<br/>
-batchSeq：短信批次号。<br/>
+notifyTime：接口服务器返回的时间，格式YYMMDDhhmmss，其中YY=年份的最后两位（00-99），MM=月份（01-12），DD=日（01-31），hh=小时（00-23），mm=分钟（00-59）,ss=秒（00-59）。
+mobile：提交短信时的手机号码
+status：状态报告状态码
+batchSeq：短信批次号。
 ```
 
 
