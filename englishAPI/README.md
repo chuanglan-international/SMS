@@ -442,12 +442,26 @@ Note: code is the response status code, which can be compared with the submitted
 |0|Submitted successfully|
 |101|Account does not exist|
 |102|Password mistake|
-|106|Text message length error(>536)|
+|103|String number format error|
+|104|The number of pull strips is not in the range|
+|106|Text message length error(>3000)|
 |108|Wrong format of mobile phone number(>20或<5)|
+|109|Wrong number of mobile phone|
 |110|Lack of balance|
 |112|Product configuration error|
 |114|Request IP and binding IP are not consistent|
 |115|No access to domestic SMS|
+|116|Account deleted or disabled|
+|117|The access number is longer than 20 digits|
 |123|Text messages cannot be empty|
+|124|The profile or captcha cannot be empty|
+|125|A certain customer's phone number must not exceed 10 times on the same day|
+|126|Timed message sending time cannot be empty|
+|126|Timed message sending time error|
 |128|Account length error(>50或<=0)|
 |129|Product price configuration error|
+|130|Unknown abnormal|
+|131|Exceeding the daily delivery limit|
+|132|Exceed monthly delivery limit|
+|133|Sending limit exceeded|
+|134|Exceeding the counter - complaint limit|
