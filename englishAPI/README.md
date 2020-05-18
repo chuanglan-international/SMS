@@ -444,6 +444,7 @@ Note: code is the response status code, which can be compared with the submitted
 |102|Password mistake|
 |103|String number format error|
 |104|The number of pull strips is not in the range|
+|105|uid length exceeds 64 character limit|
 |106|Text message length error(>3000)|
 |108|Wrong format of mobile phone number(>20或<5)|
 |109|Wrong number of mobile phone|
@@ -465,3 +466,4 @@ Note: code is the response status code, which can be compared with the submitted
 |132|Exceed monthly delivery limit|
 |133|Sending limit exceeded|
 |134|Exceeding the counter - complaint limit|
+|135|messages don't match|
