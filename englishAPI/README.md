@@ -196,6 +196,7 @@ content-type：application/json
 |password|yes|string|password|
 |msg|yes|yes|Message content|
 |mobile|yes|string|phone number|
+|senderId|no|string|sender|
 <br/>
 
 **Sample request**
@@ -205,6 +206,7 @@ content-type：application/json
     `"password"`:"123456",<br/> 
     `"msg":"`【253】你好，您的验证码是：123456",<br/>
     `"mobile"`:"8613011111111,8613022222222,8613033333333"<br/>
+    `"senderId"`:""<br/>
 }<br/>
 <br/>
 
