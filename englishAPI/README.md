@@ -194,7 +194,7 @@ content-type：application/json
 |:---|:---|:---|:---|
 |account|yes|string|account|
 |password|yes|string|password|
-|msg|yes|yes|Message content|
+|msg|yes|string|Message content|
 |mobile|yes|string|phone number|
 |senderId|no|string|sender|
 <br/>
