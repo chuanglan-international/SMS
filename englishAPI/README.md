@@ -202,11 +202,11 @@ content-type：application/json
 **Sample request**
 
 {<br/>
-    `"account"`:"I6428061",<br/> //API account, no more than 50 digits. mandatory
-    `"password"`:"123456",<br/>  //API account corresponding to the key, contact customer service to obtain. mandatory
-    `"msg":"`【253】你好，您的验证码是：123456",<br/> //Text message content. Length must not exceed 536 characters
-    `"mobile"`:"8613011111111,8613022222222,8613033333333"<br/>//Mobile phone number, format (area code + mobile phone number), for example: 8615800000000, where 86 is China's area code，The area code does not start with 00, and 15800000000 is the real phone number to receive the SMS. 5-20. mandatory
-    `"senderId"`:""<br/>//The sender displayed after the user receives the message is not supported in China or abroad, but needs to communicate with the operator in advance for registration. Please confirm with TIG docking personnel for details. optional
+    `"account"`:"I6428061", //API account, no more than 50 digits. mandatory<br/> 
+    `"password"`:"123456", //API account corresponding to the key, contact customer service to obtain. mandatory<br/> 
+    `"msg":"`【253】你好，您的验证码是：123456", //Text message content. Length must not exceed 536 characters<br/> 
+    `"mobile"`:"8613011111111,8613022222222,8613033333333", //Mobile phone number, format (area code + mobile phone number), for example: 8615800000000, where 86 is China's area code，The area code does not start with 00, and 15800000000 is the real phone number to receive the SMS. 5-20. mandatory<br/> 
+    `"senderId"`:"" //The sender displayed after the user receives the message is not supported in China or abroad, but needs to communicate with the operator in advance for registration. Please confirm with TIG docking personnel for details. optional<br/> 
 }<br/>
 <br/>
 
