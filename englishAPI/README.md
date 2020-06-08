@@ -468,4 +468,6 @@ Note: code is the response status code, which can be compared with the submitted
 |132|Exceed monthly delivery limit|
 |133|Sending limit exceeded|
 |134|Exceeding the counter - complaint limit|
+|134|Error in variable message content|
+|135|Variable quantity discrepancy|
 |135|messages don't match|
