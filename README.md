@@ -23,6 +23,7 @@
  1. [语音验证码](docs/voiceVerificationCode.md)
  1. [拉取上行短信明细](docs/pullDetail.md)
  1. [拉取状态报告](docs/pullCallback.md)
+ 1. [变量短信](docs/variableMessage.md)
  1. [状态码](docs/statusCode.md)
 ##
 [English version of the API](englishAPI/README.md)
