@@ -13,7 +13,7 @@ URL| http://intapi.253.com/var/json
 ### 1.2 请求包体
 
 & 包体为json字符串，参数如下：
-
+参数|说明
 :---|:---
 account|API账号，50位以内。必填
 password|API账号对应密钥，联系客服获取。必填
