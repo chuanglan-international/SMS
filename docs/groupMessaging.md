@@ -18,6 +18,7 @@ content-type：application/json
 |password|是|string|密码|
 |msg|是|string|短信内容|
 |mobile|是|string|手机号|
+|uid|否|string|自定义批次号|
 |senderId|否|string|发件人|
 
 **请求示例**
