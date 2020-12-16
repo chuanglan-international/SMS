@@ -35,6 +35,7 @@
       "mobile": "8618037170702",
       "msgid": "18081420311005732392",
       "reportTime": "1808142031",
+      "notifyTime": "180814203101",
       "status": "DELIVRD"
     },
     {
@@ -42,6 +43,7 @@
       "mobile": "8618037170702",
       "msgid": "18081509281005782276",
       "reportTime": "1808150928",
+       "notifyTime": "180814203101",
       "status": "DELIVRD"
     }
   ]
