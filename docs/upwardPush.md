@@ -14,13 +14,15 @@
  http://pushMoUrl?receiver=admin&pswd=12345&moTime=1208212205&mobile=13800210021&msg=hello&destcode=CHUANGLAN
  
  参数说明如下：
- 
-`receiver`：接收上行验证的用户名（不是账户名），是按照用户要求配置的名称，默认为空<br/>
-`pswd`：接收上行验证的密码，默认为空<br/>
-`moTime`：上行时间<br/>
-`mobile`：上行手机号码<br/>
-`msg`：上行短信内容<br/>
-`destcode`：用户上行的目的号码<br/>
+
+|参数|说明|
+|:---|:---|
+|`receiver`：|接收上行验证的用户名（不是账户名），是按照用户要求配置的名称，默认为空<br/>|
+|`pswd`：|接收上行验证的密码，默认为空<br/>|
+|`moTime`：|上行时间<br/>|
+|`mobile`：|上行手机号码<br/>|
+|`msg`：|上行短信内容<br/>|
+|`destcode`：|用户上行的目的号码<br/>|
 
 
 
