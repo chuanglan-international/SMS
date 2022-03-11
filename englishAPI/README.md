@@ -493,45 +493,45 @@ Note: code is the response status code, which can be compared with the submitted
 
 <a id="a-ConversionRate"></a>
 
-## 10 回填接口文档 V1
+## 10 CR (Conversion Rate) Interface Document 
 
-🎈注：回填率数据分析目前仅针对验证码业务
+🎈Note: CR data analysis is currently only applicable for OTP traffic
 
-1. **消息应用场景：**
+1. **Message application  scenarios：**
 
-![消息应用场景](../RES/CR.jpg)
+![Message application  scenarios](../RES/CR.jpg)
 
-2. ##### 生产基地址
+2. ##### Production base address
 
 http://id-vivo-cooper.tig253.com/
 
-3. ##### **回填明细接口**
+3. ##### **CR interface parameters**
 
-**接口路径：** [/v1/otp/writeTrans](/v1/otp/writeTrans)
+**Interface endpoint：** [/v1/otp/writeTrans](/v1/otp/writeTrans)
 
-**接口备注：** 接口需要添加ip白名单
+**Interface Setting Request：** The interface needs to be added to the IP whitelist
 
-**请求方法：** POST
+**Method Supported：** POST
 
 **content-type：** applicition/json
 
-**频率限制：1**万次/分，60万次/小时
+**Frequency Limit：** 10,000 times/min, 600,000 times /hour
 
-**应用场景：** 用户收到验证码短信，并且使用了验证码，实时回传这个短信相关信息。
+**Application scenario：** The user receives the verification code sms, and once the verification code is used, the details of this sms will be returned back via the API instantly.
 
-**参数说明如下:**
+**parameter:**
 
-|属性名称|字段类型|是否可空|字段描述|
+|Parameter  Name|Type|Is Null|Description|
 |:---|:---|:---|:---|
-|phone|String|不可空|手机号|
-|time|long|不可空|验证码回填时间戳（单位秒）|
-|messageId|String|不可空|创蓝返回的messageId|
-|account|String|不可空|api账号|
-|countryNum|String|不可空|国家码(如86)|
+|phone|String|cannot be null|Phone number|
+|time|long|cannot be null|Verification Code Callback Timestamp (in Seconds)|
+|messageId|String|cannot be null|MessageId  returned by Chuanglan|
+|account|String|cannot be null|API account|
+|countryNum|String|cannot be null|Country Code (e.g., 86)|
 
 
 
-###### **请求示例：**
+###### **Request Sample：**
 
 ```JSON
 {
@@ -543,7 +543,7 @@ http://id-vivo-cooper.tig253.com/
 }
 ```
 
-###### **返回示例：**
+###### ** Return Sample：**
 
 ```json
 {
@@ -552,33 +552,33 @@ http://id-vivo-cooper.tig253.com/
 }
 ```
 
-4. ##### **回填成功率接口**
+4. ##### **CR  success rate Interface**
 
-**接口路径：** [/sms/success/rate](/sms/success/rate)
+**Interface endpoint：** [/sms/success/rate](/sms/success/rate)
 
-**接口备注：** 接口需要添加ip白名单
+**Interface Setting Request：** The interface needs to be added to the IP whitelist
 
-**请求方法：** POST
+**Method Supported：** POST
 
 **content-type：** applicition/json
 
-**频率限制：60** 次/分，3600次/小时
+**Frequency Limit：** 60 times/min,3600 times /hour
 
-**应用场景：** 在固定的时间间隔（如每5分钟，0，5，10，15，20...50，55），汇总时间范围内发送的验证码总量，汇总时间范围内已使用的验证码总量，计算回填百分比（已使用验证的验证码总量/验证码总量）。
+**Application scenarios：** At fixed time intervals (e.g. every 5 minutes, 0,5,10,15,20...50,55), summarize the total number of verification codes delivered during the time range, summarize the total number of verification codes used during the time range, and calculate the backfill percentage or Conversion Rate (total number of verification codes delivered/total number of verification codes used).
 
-**参数说明如下:**
+**Parameter:**
 
-|属性名称|字段类型|是否可空|字段描述|
+|Parameter  Name|Type|Is Null|Description|
 |:---|:---|:---|:---|
-|account|String|不可空|api账号|
-|startTime|long|不可空|开始时间戳（单位秒）|
-|endTime|long|不可空|结束时间戳（单位秒）|
-|successRate|array[object]|不可空|回填率列表|
-|	countryNum|String|不可空|国家码|
-|	rate|String|不可空|回填率|
+|account|String|No|API  account|
+|startTime|long|No|Start timestamp ( in seconds)|
+|endTime|long|No|End timestamp (in seconds)|
+|successRate|array[object]|No|List of Conversion Rate|
+|	countryNum|String|No|Country Code|
+|	rate|String|No|Conversion Rate|
 
 
-###### **请求示例：**
+###### **Request Sample：**
 
 ```JSON
 {
@@ -598,11 +598,11 @@ http://id-vivo-cooper.tig253.com/
 }
 ```
 
-###### **返回示例：**
+###### **Return Sample：**
 
 ```json
 {
-    "code": 0,//0:成功，非0：失败
+    "code": 0,//0:Success，非0：失败
     "msg": "成功"
 }
 ```
