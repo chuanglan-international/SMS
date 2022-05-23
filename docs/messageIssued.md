@@ -7,7 +7,8 @@
 协议|HTTP POST
 编码格式|UTF8
 Content-Type|application/json
-URL| https://intapi.253.com/send/sms 
+URL(上海)| https://intapi.253.com/send/sms
+URL(新加坡)|http://intapi.sgap.253.com/send/sms
 
 ### 1.2 请求头
 名称|类型|是否必填|示例|说明
