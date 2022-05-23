@@ -36,13 +36,14 @@ name|instructions
 agreement|HTTP POST
 Coding format|UTF8
 Content-Type|application/json
-URL|`http://intapi.253.com/send/json`
+URL(Shanghai)|https://intapi.253.com/send/sms
+URL(Sigapore)|http://intapi.sgap.253.com/send/sms
 
 ### 1.2 Request Header
 name|data type|required|example|instructions
 :---|:---|:---|:---|:---
 sign|string|Y|1234abcd7890qwer|signature
-nonce|string|Y|timestamp
+nonce|string|Y|1653043349000|timestamp
 
 ### 1.3 Request Body
 name|data type|required|example|instructions
