@@ -54,8 +54,10 @@ msg|string|Y|this is your message|ext message content. Length must not exceed 53
 senderId|string|N|SENDER|The sender displayed after the user receives the message is not supported in China or abroad, but needs to communicate with the operator in advance for registration. Please confirm with TIG docking personnel for details.
 
 > Sign generate Method
-1. 
-2. 
+1. assign current timestamp to header param `nonce`;
+2. sort `nonce` and parameter names in request body by ascii, then join them like: k1v1k2v2k3v3
+3. append password to the joined string
+4. encrypt the string with md5,  `sign` is the lowercase of the ciphertext. 
 
  ### 1.4 Response
  
