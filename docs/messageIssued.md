@@ -13,7 +13,7 @@ URL(新加坡)|http://intapi.sgap.253.com/send/sms
 ### 1.2 请求头
 名称|类型|是否必填|示例|说明
 :---|:---|:---|:---|:---
-sign|string|是|1234abcd7890qwer|签名
+sign|string|是|1234abcd7890qwer|签名，请参照加签方式生成签名
 nonce|string|是|1653043349000|时间戳
 
 ### 1.3 请求包体
