@@ -7,7 +7,6 @@
 |:---|:---|
 |协议|HTTP GET|
 |编码格式|UTF8|
-|Content-Type|application/x-www-form-urlencoded|
 |pushUrl|此地址客户提供，提供给运营绑定，一个账号一个地址|
 
 ### 3.2 回调示例
