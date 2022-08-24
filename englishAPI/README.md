@@ -117,7 +117,6 @@ msgid|string|17041010383624511|message id
 |:---|:---|
 |agreement|HTTP GET|
 |Coding format|UTF8|
-|Content-Type|application/x-www-form-urlencoded|
 |pushUrl|This address is provided by the customer, which is provided to the operation binding, one account and one address|
 
 ### 3.2 The callback example
