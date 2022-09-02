@@ -41,3 +41,72 @@ error|string|签名错误|状态码说明,成功返回空字符串
 msgid|string|17041010383624511|消息id
 
  注：code为响应状态码，可参照提交响应状态码对比
+ 
+ ### 1.5 加签代码示例
+ ```java
+ package com.angi;
+
+import com.alibaba.fastjson.JSONObject;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.util.DigestUtils;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+
+/**
+ * 参数进行加签验签
+ */
+public class SignUtil {
+
+    private static final String SIGN = "sign";
+
+    /**
+     * 发送加签
+     */
+    public static String sendSign(String password, TreeMap<String, String> paramMap) {
+        paramMap.remove(SIGN);
+        StringBuilder sb = new StringBuilder();
+        for (Map.Entry<String, String> entry : paramMap.entrySet()) {
+            if (StringUtils.isNotBlank(entry.getValue())) {
+                sb.append(entry.getKey());
+                sb.append(entry.getValue());
+            }
+        }
+        return DigestUtils.md5DigestAsHex((sb.toString() + password).getBytes()).toLowerCase();
+    }
+
+    /**
+     * 发送验签
+     */
+    public static boolean verifySendSign(String password, TreeMap<String, String> paramMap) {
+        String sign = paramMap.remove(SIGN);
+        String computed = sendSign(password, paramMap);
+        return StringUtils.equals(sign, computed);
+    }
+
+
+    public static void main(String[] args) {
+        /**发送加签验签*/
+        String password = "4Z7bMS1eLI6895";
+        TreeMap<String, String> paramMap = new TreeMap<>();
+        paramMap.put("nonce", "222222");
+        paramMap.put("account", "IM6742671");
+        paramMap.put("mobile", "8618916198813");
+        paramMap.put("msg", "test 666661 ");
+        System.out.println(JSONObject.toJSONString(paramMap));
+        String sign = sendSign(password, paramMap);
+        System.out.println(sign);
+
+        TreeMap<String, String> newParamMap = new TreeMap<>(paramMap);
+        newParamMap.put(SIGN, sign);
+
+        boolean validate = verifySendSign(password, newParamMap);
+        System.out.println(validate);
+
+    }
+
+
+}
+
+ ```
