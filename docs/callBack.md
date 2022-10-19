@@ -12,7 +12,7 @@
 ### 3.2 回调示例
 
 
-http://pushUrl?receiver=admin&pswd=12345&msgid=12345&reportTime=1012241002&mobile=13900210021&status=DELIVRD¬ifyTime=180828114243&batchSeq=I0123456_1808281142_2188000
+http://pushUrl?receiver=admin&pswd=12345&msgid=12345&reportTime=1012241002&mobile=13900210021&status=DELIVRD&notifyTime=180828114243&batchSeq=I0123456_1808281142_2188000
 
 
 参数说明如下
