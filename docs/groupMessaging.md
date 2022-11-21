@@ -16,7 +16,7 @@ content-type：application/json
 |:---|:---|:---|:---|
 |account|是|string|账户|
 |password|是|string|密码|
-|msg|是|string|短信内容|
+|msg|是|string|短信内容。如果开启退订，短信内容后追加退订链接： 2ub.co/xxxxxx或1ub.co/xxxxxx，原短信内容增加14个字符。计费条数可能会增加。|
 |mobile|是|string|手机号|
 |uid|否|string|自定义批次号|
 |senderId|否|string|发件人|
