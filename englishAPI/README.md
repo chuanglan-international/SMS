@@ -50,7 +50,7 @@ name|data type|required|example|instructions
 :---|:---|:---|:---|:---
 account|string|Y|I6000000|API account, no more than 50 digits
 mobile|string|Y|8615800000000|Mobile phone number, format (area code + mobile phone number), for example: 8615800000000, where 86 is China's area code，The area code does not start with 00, and 15800000000 is the real phone number to receive the SMS. 5-20.
-msg|string|Y|this is your message|ext message content. Length must not exceed 536 characters
+msg|string|Y|this is your message|ext message content. Length must not exceed 536 characters. If unsubscribe is enabled，unsubscribe url (2ub.co/xxxxxx or 1ub.co/xxxxxx) will be appended to msg content, and it will increase msg size.
 senderId|string|N|SENDER|The sender displayed after the user receives the message is not supported in China or abroad, but needs to communicate with the operator in advance for registration. Please confirm with TIG docking personnel for details.
 
 > Sign generate Method
